@@ -1,11 +1,5 @@
-# E07a-Save-and-Load    
+# E07a-Save-and-Load
 
-This is an opportunity for you to practice the simplest form of saving state in Godot, saving to a config file.
+This is an exercise for MSCH-G220 Game Technology as an intro to basic-level save/load systems that can be crafted in GODOT. Tutorial originally created by Eric Davidson, and used for educational purposes. Here is his guide to this exercise: [Basic Saving In Godot With Config Files](https://www.youtube.com/watch?v=ygGaN1EOQEA) 
 
-As always, Fork and Clone this repository.
-
-This exercise is taken from the [Basic Saving In Godot With Config Files](https://www.youtube.com/watch?v=ygGaN1EOQEA) by Eric Davidson. His video will guide you through the steps required to save a value (in this case, the DisplayValue) to a config file and retrieve it when the player pushes the Save and Load buttons.
-
-His tutorial was developed using Godot 3.1. Everything you see should be compatible with Godot 3.2, although some of the syntax highlighting might look slightly different.
-
-After you have completed the exercise, run the program. Save a value of -3 to the config file. Update the LICENSE and README.md, and then turn in the URL to your repository on Canvas.
+This is basically just the save/load shell function meant to be a part of a game, and isn't technically a game itself. I suppose you could mentally create a game just from this, but that's alot of work.
