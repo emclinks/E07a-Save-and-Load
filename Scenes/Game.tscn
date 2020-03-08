@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scenes/Game.gd" type="Script" id=1]
 [ext_resource path="res://Fonts/GugiFont.tres" type="DynamicFont" id=2]
 [ext_resource path="res://Display.gd" type="Script" id=3]
-[ext_resource path="res://Buttons.gd" type="Script" id=4]
 
 [node name="Game" type="Node2D"]
 script = ExtResource( 1 )
@@ -26,7 +25,6 @@ valign = 1
 script = ExtResource( 3 )
 
 [node name="Buttons" type="Node2D" parent="."]
-script = ExtResource( 4 )
 
 [node name="SubtractButton" type="TextureButton" parent="Buttons"]
 margin_left = 402.859
@@ -73,7 +71,8 @@ margin_top = 370.0
 margin_right = 436.0
 margin_bottom = 483.0
 __meta__ = {
-"_edit_group_": true
+"_edit_group_": true,
+"_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="Buttons/Save"]
